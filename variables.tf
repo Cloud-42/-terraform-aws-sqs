@@ -1,5 +1,5 @@
 variable "tags" {
-  type        = "map"
+  type        = map
   default     = {}
   description = "Additional tags (e.g. map('Environment`,`DEV`)"
 }
